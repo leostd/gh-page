@@ -1,0 +1,27 @@
+ @import './styles/_navbar.scss';
+
+.container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.main-jumbotron {
+    background: url("../static/img/banner.png") no-repeat center center !important;
+    background-size: cover;
+
+    h1,p {
+        color: white;
+    }
+}
+
+.main-content {
+    padding-top: 100px;
+}
+
+.main-footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #666666;
+    height: 50px;
+    text-align: center;
+}
